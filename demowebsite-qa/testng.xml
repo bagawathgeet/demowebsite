@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Suite" parallel="methods">
+  <test thread-count="3" name="Test" parallel="methods">
+    <classes>
+      <class name="com.demowebsite.examples.alertsandmodals.BootstrapAlerts">
+      <methods>
+    	<include name="bootstrapAlertMessages" />
+        <include name="bootstrapModal1" />
+        <include name="bootstrapModal" />
+        <include name="fileDownloadDemo" />
+        <include name="singleInputField" />
+        <include name="TwoInputField" />
+      </methods>
+      </class>
+       <class name="com.demowebsite.examples.alertsandmodals.BootstrapAlerts">
+      <methods>
+    	<include name="bootstrapAlertMessages" />
+        <include name="bootstrapAlert" />
+      </methods>
+      </class>
+      <class name="com.demowebsite.examples.alertsandmodals.BootstrapModals">
+      <methods>
+        <include name="invokeBrowser" />
+        <include name="bootstrapModal" />
+        <include name="fileDownloadDemo" />
+        <include name="singleInputField" />
+        <include name="TwoInputField" />
+      </methods>
+      </class>
+      <class name="com.demowebsite.examples.alertsandmodals.fileDownloadDemo">
+      <methods>
+        <include name="invokeBrowser" />
+        <include name="fileDownloadDemo" />
+      </methods>
+      </class>
+      <class name="com.demowebsite.examples.inputforms.AjaxFormSubmit">
+      <methods>
+    	<include name="invokeBrowser" />
+        <include name="ajaxFormSubmit" />
+      </methods>
+      </class>
+      <class name="com.demowebsite.examples.inputforms.CheckBoxDemo">
+      <methods>
+    	<include name="invokeBrowser" />
+        <include name="singleCheckBoxDemo" />
+        <include name="multipleCheckBoxDemo" />
+      </methods>
+      </class>
+      <class name="com.demowebsite.examples.inputforms.InputFormSubmit">
+      <methods>
+    	<include name="invokeBrowser" />
+        <include name="inputFormWithValidations" />
+      </methods>
+      </class>
+       <class name="com.demowebsite.examples.inputforms.PracticeSimpleFormDemo">
+      <methods>
+    	<include name="invokeBrowser" />
+    	<include name="singleInputField" />
+        <include name="TwoInputField" />
+      </methods>
+      </class>
+      
+      <class name="com.demowebsite.examples.inputforms.RadioButtonsDemo">
+      <methods>
+    	<include name="invokeBrowser" />
+        <include name="radioButtonDemo" />
+        <include name="groupRadioButtonsDemo" />
+        </methods>
+      </class>
+      <class name="com.demowebsite.examples.inputforms.SelectDropdownList">
+      <methods>
+    	<include name="invokeBrowser" />
+        <include name="selectListDemo" />
+        <include name="multiSelectListDemo" />
+        </methods>
+      </class>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
