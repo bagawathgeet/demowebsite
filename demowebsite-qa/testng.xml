@@ -6,9 +6,9 @@
       <class name="com.demowebsite.examples.alertsandmodals.BootstrapAlerts">
       <methods>
     	<include name="bootstrapAlertMessages" />
-        <include name="bootstrapModal1" />
-        <include name="bootstrapModal" />
-        <include name="fileDownloadDemo" />
+        //<include name="bootstrapModal1" />
+        //<include name="bootstrapModal" />
+        //<include name="fileDownloadDemo" />
         <include name="singleInputField" />
         <include name="TwoInputField" />
       </methods>
